@@ -40,7 +40,8 @@ function main() {
     // DianPing.hook_stuffs();
     // FCAnd.hook_uri(true);
     // FCAnd.hook_url(true);
-    // FCAnd.jni.traceAllJNISimply();
+    //FCAnd.jni.traceAllJNISimply();
+    FCAnd.jni.hook_registNatives();
     // FCAnd.traceArtMethods(['M:retrofit2']);
     // rpc.exports = {
     //     test() {

@@ -16,13 +16,13 @@ function main() {
     // FCAnd.Anti.anti_fgets();
     // and.anti.Anti.anti_fgets();
 
-    // FCAnd.anti.anti_debug();
+    //FCAnd.anti.anti_debug();
     /// dp
     // DianPing.anti_debug();
     // DianPing.hook_cx_stacks();
     ///
     // FCAnd.showStacks();
-    // FCAnd.dump_dex_common();
+    //FCAnd.dump_dex_common();
     // FCAnd.Anti.anti_sslPinning("/data/local/tmp/cert-der.crt");
 
     // FCCommon.dump_module('libmtguard.so', '/data/data/com.dianping.v1');
@@ -40,8 +40,8 @@ function main() {
     // DianPing.hook_stuffs();
     // FCAnd.hook_uri(true);
     // FCAnd.hook_url(true);
-    //FCAnd.jni.traceAllJNISimply();
-    FCAnd.jni.hook_registNatives();
+     FCAnd.jni.traceAllJNISimply();
+     FCAnd.jni.hook_registNatives();
     // FCAnd.traceArtMethods(['M:retrofit2']);
     // rpc.exports = {
     //     test() {

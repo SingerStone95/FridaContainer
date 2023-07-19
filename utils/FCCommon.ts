@@ -113,6 +113,9 @@ export namespace FCCommon {
         }
     }
 
+
+
+
     export function dump2file(addr: NativePointer, size: number, savePath: string) {
         DMLog.i('dump2file', `addr: ${addr.toString(16)}, size: ${size}`);
         let file = new File(savePath, "w+");

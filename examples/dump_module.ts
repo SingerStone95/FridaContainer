@@ -10,8 +10,13 @@ import {FCCommon} from "../utils/FCCommon";
 
 if (Java.available) {
     Java.perform(() => {
-        FCCommon.dump_module('libmtguard.so', '/data/data/com.dianping.v1');
+        const class_a = Java.use('org.proxism.proxi.leaf');
+
+
+
+
     });
+
 }
 
 if (ObjC.available) {

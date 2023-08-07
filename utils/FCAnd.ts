@@ -260,9 +260,9 @@ export namespace FCAnd {
         // 'E:javax.crypto.spec.IvParameterSpec',
         // 'E:javax.crypto.Mac',
         // 'M:KeyGenerator',
-        'M:Base64',
-        'M:javax.crypto',
-        'M:java.security',
+        //'M:Base64',
+        //'M:javax.crypto',
+        //'M:java.security',
         'E:java.lang.String',
     ];
 
@@ -270,8 +270,8 @@ export namespace FCAnd {
      * trace java methods 对 java.lang.String 类中的默认白名单方法名
      */
     export const tjm_default_white_detail: any = {
-        /*{ clsname: {white: true/false, methods[a, b, c]} }*/
-        'java.lang.String': {white: true, methods: ['toString', 'getBytes']}
+        //{ clsname: {white: true/false, methods[a, b, c]} }
+        'java.lang.String': {white: true, methods: ['toString']}
     }
 
     /**

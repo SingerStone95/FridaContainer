@@ -40,8 +40,8 @@ function main() {
     // DianPing.hook_stuffs();
     // FCAnd.hook_uri(true);
     // FCAnd.hook_url(true);
-     FCAnd.jni.traceAllJNISimply();
-     FCAnd.jni.hook_registNatives();
+    //FCAnd.jni.traceAllJNISimply();
+    //FCAnd.jni.hook_registNatives();
     // FCAnd.traceArtMethods(['M:retrofit2']);
     // rpc.exports = {
     //     test() {
@@ -50,6 +50,13 @@ function main() {
     //         });
     //     }
     // }
+
+    FCAnd.traceArtMethods(
+        ['E:org.proxism.proxi.leaf.Leaf'],
+        {'org.proxism.proxi.leaf.Leaf': {white: true, methods: ['run', 'getVersion','stop']}},
+        "match_str_show_stacks"
+    );
+
 }
 
 if (Java.available) {
